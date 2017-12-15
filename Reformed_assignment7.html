@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sign up</title>
+</head>
+<body>
+<h1>Simple Sign-up Page</h1>
+
+<form>
+<div>
+<label for="username">Username:</label>
+<input type="text" id="username" onblur="Username()"/>
+<span id="feedback" style="color:#ff0000" ></span>
+</div>
+
+
+<div>
+<label for="password">Password:</label>
+<input type="password" id="password" onblur="Password()"/>
+<span id="psw" style="color:#ff0000"> </span>
+</div>
+
+
+<div>
+<label for="password">Password Confirmation:</label>
+<input type="password" id="passwordC" onblur="PasswordC()" />
+<span id="passwordV" style="color:#ff0000"> </span>
+</div>
+
+
+<div>
+<label for="email">Email:</label>
+<input type="email" id="email" onblur="Email()">
+<span id="valid" style="color:#ff0000"> </span>
+</div>
+  </form>
+<input type="button" name="signUp" id="signup" value="Sign Up" />
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/Reformed_assignment7.js"></script>	
+</body>
+
+</html>
